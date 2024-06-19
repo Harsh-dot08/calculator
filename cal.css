@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Orbitron', sans-serif;
+}
+body{
+    background-color: rgb(15, 15, 41);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    gap: 5rem;
+}
+h1{
+    font-size:3rem;
+    color: rgb(203, 127, 5);
+}
+.container{
+    height: 60vh;
+    width: 40vh;
+    padding: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vh;
+    border: 2px solid rgba(255, 255, 255, 0.332);
+    box-shadow: 1px 1px 5px 3px rgba(255, 255, 255, 0.332);
+    border-radius: 1.5rem;
+    margin-right: 5vh;
+}
+.display{
+    height: 15vh;
+    width: 100vmin;
+    border: 2px solid rgba(255, 255, 255, 0.332);
+    box-shadow: 1px 1px 5px 3px rgba(255, 255, 255, 0.332);
+    border-radius: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.279);
+    display: flex;
+
+}
+.buttons{
+    height: 43vh;
+    display: grid;
+    grid-template-columns: auto auto
+    auto auto;
+    gap: 10px;
+    width: 100vmin;
+    position: relative;
+    bottom: 0;
+}
+button{
+    background-color: rgb(15, 15, 41);
+    border-radius: 1.5rem;
+    border: none;
+    box-shadow: 1px 1px 2px 3px rgba(255, 255, 255, 0.332);
+    transition: background 0.05s linear;
+    transition: all .05s linear;
+}
+.operator{
+    color: greenyellow;
+    font-size: 1.5rem;
+}
+.operand{
+    color:rgba(255, 255, 255, 0.933) ;
+    font-size: 1.5rem;
+}
+.to{
+    font-size: 2rem;
+    color:rgba(255, 255, 255, 0.933) ;
+    background-color: rgb(203, 127, 5);
+}
+p{
+    color: greenyellow;
+    font-size: 2rem;
+    
+}
+.msg{
+    width: 100%;
+    padding: 1rem;
+    text-align: end;
+    align-self: flex-end;
+}
+footer{
+    color: greenyellow;
+    font-size: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 0.3rem;
+}
+button:hover {background-color: rgb(48, 48, 128);}
